@@ -28,7 +28,7 @@ jobs:
           npm install
       - name: Build project
         run: |
-          cd frontend  # Again, navigate to the folder if necessary
+          cd my-app  
           npm run build
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
