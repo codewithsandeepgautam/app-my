@@ -33,7 +33,7 @@ jobs:
           npm run build
 
       - name: Verify build directory contents
-        run: ls -l ./build  # Check if the build directory exists and contains files
+        run: ls -l ./my-app  # Check if the build directory exists and contains files
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
